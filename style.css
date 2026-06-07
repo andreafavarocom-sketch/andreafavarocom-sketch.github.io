@@ -3,3 +3,19 @@ background-color: aquamarine;
 
 
 }
+/* Stile generale della Navbar */
+.navbar {
+    position: fixed;   / Mantiene la barra fissa in alto mentre si scende nella pagina /
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff; /* Colore di sfondo (bianco) */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una leggera ombra moderna sotto la barra */
+    display: flex;
+    justify-content: space-between; /* Mette il logo a sinistra e i link a destra */
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    z-index: 1000;        /* Fa in modo che la barra rimanga sempre sopra agli altri elementi */
+}
